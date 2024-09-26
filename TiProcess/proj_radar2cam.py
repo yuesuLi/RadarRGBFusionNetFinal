@@ -73,7 +73,7 @@ def cam_to_radar(bboxs, radar2img_matrix, IntrinsicMatrix, radar_height=-1.0):
     return np.array(cam_to_radar_point)
 
 # raw person_h:1.7
-def cam_to_radar2(bboxs, radar2img_matrix, IntrinsicMatrix, person_h=1.9):
+def cam_to_radar2(bboxs, radar2img_matrix, IntrinsicMatrix, person_h=1.7):
     """
         camera point project to radar coordinate
         :param bboxs : (N,4) , N is the number of bbox, tlwh
